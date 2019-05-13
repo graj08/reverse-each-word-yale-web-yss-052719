@@ -5,6 +5,7 @@ string_array = string.split(' ')
 string_array.each |x| do
   string_array[x].split('')
 end
+string_array
 end
 
 
