@@ -3,7 +3,6 @@ string_array = Array.new
 reversed_array = Array.new
 string_array = string.split(' ')
 
-end
 string_array
 end
 
