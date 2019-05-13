@@ -5,7 +5,7 @@ letters = Array.new
 string_array = string.split(' ')
 string_array.each do |x|
 counter = 0
-until counter == x.length-1
+until counter > x.length-1
   reversed_array << string_array[x].pop
   counter +=1
 end
