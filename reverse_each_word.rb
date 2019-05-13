@@ -2,8 +2,10 @@ def reverse_each_word (string)
 string_array = Array.new
 reversed_array = Array.new
 string_array = string.split(' ')
-
-string_array
+string_array.each do  |char|
+  reversed_array.unshift(char)
+end
+reversed_array
 end
 
 
