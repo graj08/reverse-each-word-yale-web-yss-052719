@@ -3,7 +3,7 @@ string_array = Array.new
 reversed_array = Array.new
 string_array = string.split(' ')
 string_array.each do |x|
-  string_array[x].split('')
+  string_array[x] = string_array[x].split('')
 end
 string_array
 end
