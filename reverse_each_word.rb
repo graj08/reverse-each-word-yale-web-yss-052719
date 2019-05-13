@@ -4,8 +4,10 @@ reversed_array = Array.new
 letters = Array.new
 string_array = string.split(' ')
 string_array.each do |x|
-for i in 0..x.size-1 do
-  reversed_array = string_array.pop
+counter = 0
+until counter == x.length-1
+  reversed_array << string_array[x].pop
+  counter +=1
 end
 end
 reversed_array
