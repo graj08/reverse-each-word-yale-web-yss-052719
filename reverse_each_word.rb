@@ -2,7 +2,7 @@ def reverse_each_word (string)
 string_array = Array.new
 reversed_array = Array.new
 string_array = string.split(' ')
-string_array.each |x| do 
+string_array.each |x| do
   string_array[x].split('')
 end
 end
