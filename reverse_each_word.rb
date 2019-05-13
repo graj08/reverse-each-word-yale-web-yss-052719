@@ -1,13 +1,7 @@
-def reverse_each_word (string)
-string_array = Array.new
-reversed_array = Array.new
-string_array = string.split(' ')
-string_array.each do  |char|
-  reversed_array.unshift(char)
-end
-reversed_array
-end
-
-
-array_form = reverse_each_word("Hello, how are you?")
-puts array_form.inspect
+def reverse_each_word(string)
+  string_array = string.split(" ")
+  return_array = Array.new
+  string_array.each do |x|
+    return_array << x.reverse
+  end
+  
